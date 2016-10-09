@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gpa Calculator</string>
+    <string name="gpa_calc">GPA Calculator</string>
+    <string name="ave_calc">Average Calculator</string>
+    <string name="norm_calc">Normal Calculator</string>
+    <string name="title_activity_gpa">GpaActivity</string>
+    <string name="title_activity_avg">AvgActivity</string>
+    <string name="title_activity_simp">SimpActivity</string>
+</resources>

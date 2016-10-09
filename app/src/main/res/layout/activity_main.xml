@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gpa_calc_btn"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24dp"
+        android:text="@string/gpa_calc"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aug_calc_btn"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24dp"
+        android:text="@string/ave_calc"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/normal_calc_btn"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24dp"
+        android:text="@string/norm_calc"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_blue_light"
+        android:elevation="1dp"
+        android:padding="10dp"
+        android:layout_margin="20dp"/>
+</LinearLayout>
